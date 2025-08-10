@@ -1,4 +1,4 @@
-# dbt Base Project 1
+# dbt Base Project
 
 ## Overview
 This is a sample **dbt** (Data Build Tool) project that demonstrates the following concepts:
@@ -22,3 +22,6 @@ To generate and serve documentation for this project, run:
 ```bash
 dbt docs generate
 dbt docs serve
+```
+
+![image](https://github.com/ghaihitasha/dbt_project_1/blob/main/assets/dbt_docs_example.png)
