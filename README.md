@@ -1,15 +1,13 @@
-Welcome to your new dbt project!
+# My dbt Hello World Project
 
-### Using the starter project
+## Overview
+This is a sample dbt project demonstrating:
+- Seeds
+- Base models
+- Mart models
+- Tests & Documentation
 
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Steps to Run Locally
+1. Install dbt and the adapter (example: DuckDB)
+   ```bash
+   pip install dbt-duckdb
