@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: compute_customer_orders
+    description: "Aggregated customer order statistics combining base_orders and base_order_details."
+    columns:
+      - name: customer_name
+        description: "Name of the customer."
+        tests:
+          - not_null
+
+      - name: first_order_at
+        description: "Timestamp of the first recorded order for the customer."
+        tests:
+          - not_null
+
+      - name: last_order_at
+        description: "Timestamp of the most recent recorded order for the customer."
+        tests:
+          - not_null
+
+      - name: num_orders
+        description: "Total number of distinct orders made by the customer."
+        tests:
+          - not_null
+
+      - name: total_dollars
+        description: "Total dollar amount spent by the customer across all orders."
+        tests:
+          - not_null
